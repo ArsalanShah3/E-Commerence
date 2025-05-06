@@ -1,0 +1,195 @@
+.btns{
+    border: none;
+    border-radius: 10px;
+    padding: 7px;
+    background-color: #F8F9FA;
+    color: black;
+}
+.btns:hover{
+  background-color: black;
+  color: #F8F9FA;
+}
+.banner{
+    height: 100vh;
+    background-image: url(/images/banner.jpg);
+    background-size: cover;
+}
+.welcome{
+    color: white;
+    font-weight: 800;
+    font-size: 40px;
+}
+.deal{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.cliam{
+    background-color: #f8f9fad0;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: black;
+}
+.cliam:hover{
+    background-color: rgb(16, 22, 219);
+    color: white;
+}
+.card img{
+    height: 250px;
+}
+.latest{
+    text-align: center;
+    margin-block: 30px;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+  }
+
+  .navbar-brand {
+    color: #0d6efd !important;
+  }
+
+  .btns {
+    background-color: #0d6efd;
+    color: #fff;
+    border: none;
+    padding: 6px 14px;
+    border-radius: 6px;
+    transition: background 0.3s ease;
+  }
+
+  .btns:hover {
+    background-color: #0b5ed7;
+  }
+
+  .banner {
+    background: url('/images/banner.jpg') no-repeat center center/cover;
+    min-height: 70vh;
+    text-align: center;
+    color: white;
+    position: relative;
+  }
+
+  .banner::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  .banner h1,
+  .banner .deal,
+  .banner .cliam {
+    position: relative;
+    z-index: 2;
+  }
+
+  .cliam {
+    background-color: #ffc107;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-top: 15px;
+    transition: all 0.3s;
+  }
+
+  .cliam:hover {
+    background-color: #e0a800;
+  }
+
+  .card {
+    border: none;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+  }
+
+  .latest {
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 600;
+    color: #333;
+  }
+  .latest {
+    text-align: center;
+    margin: 40px 0 20px;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #333;
+  }
+  .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 15px;
+  }
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  }
+  .card-img-top {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 250px;
+    object-fit: cover;
+  }
+  .card-title {
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+  .card-text {
+    font-size: 0.95rem;
+    color: #666;
+  }
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+  }
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+
+
+  .product-card {
+    height: 350px;
+    position: relative;
+  }
+  
+  .product-card img {
+    transition: transform 0.5s ease;
+  }
+  
+  .product-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+  }
+  
+  .product-card:hover img {
+    transform: scale(1.1);
+  }
+  
+  .product-card:hover .product-overlay {
+    opacity: 1;
+  }
+  
+
+
+  .typing::after {
+    content: "|";
+    animation: blink 0.7s infinite;
+    color: black;
+  }
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+  }
+  

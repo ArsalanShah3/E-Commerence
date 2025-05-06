@@ -10,11 +10,277 @@
      <link rel="stylesheet" href="css/style.css">
      <!-- css media  -->
      <link rel="stylesheet" href="css/media.css">
+     <!-- google link  -->
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+     <!-- fontawesome  -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
-   
+   <!-- navbar Start  -->
+   <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="#">E Commerence</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#"><button class="btns">Sign In</button></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><button class="btns">Sign Up</button></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar end  -->
+   <!-- banner section start  -->
+    <div class="container-fluid banner d-flex justify-content-center align-items-center flex-column" >
+        <div class="container d-flex justify-content-center align-items-center flex-column">
+            <h1 class="welcome typing"></h1>
 
-
+            <span class="deal">20% Off All Products</span>
+            <button class="cliam">Claim Offer</button>
+        </div>
+    </div>
+    
+   <!-- banner section end  -->
+    <!-- card section  -->
+     <h1 class="latest">Latest Watches</h1>
+    <div class="container">
+        <div class="row g-4 my-5">
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card">
+              <img src="images/1.jpg" class="card-img-top" alt="Rolex">
+              <div class="card-body">
+                <h5 class="card-title">Rolex</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                <a href="#" class="btn btn-primary w-100">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card">
+              <img src="images/2.jpg" class="card-img-top" alt="Omega">
+              <div class="card-body">
+                <h5 class="card-title">Omega</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                <a href="#" class="btn btn-primary w-100">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="card">
+              <img src="images/3.jpg" class="card-img-top" alt="Patek Philippe">
+              <div class="card-body">
+                <h5 class="card-title">Patek Philippe</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                <a href="#" class="btn btn-primary w-100">Add to Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- product start  -->
+       <!-- Latest Products Section -->
+<section class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5 fw-bold">Latest Products</h2>
+      <div class="row g-4">
+        <!-- Repeat this block 6 times for 6 products -->
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="product-card position-relative overflow-hidden rounded shadow">
+            <img src="images/nike.jpg" class="w-100 h-100 object-fit-cover" alt="Product 1">
+            <div class="product-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-white text-center p-3">
+              <h5>Nike</h5>
+              <p class="mb-2">Brief description of the product.</p>
+              <a href="#" class="btn btn-warning">View Details</a>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Duplicate & change image and content for other 5 items -->
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="product-card position-relative overflow-hidden rounded shadow">
+            <img src="images/adidas.jpg" class="w-100 h-100 object-fit-cover" alt="Product 2">
+            <div class="product-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-white text-center p-3">
+              <h5>Adidas</h5>
+              <p class="mb-2">Premium quality timepiece for all occasions.</p>
+              <a href="#" class="btn btn-warning">View Details</a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="product-card position-relative overflow-hidden rounded shadow">
+            <img src="images/3.jpg" class="w-100 h-100 object-fit-cover" alt="Product 3">
+            <div class="product-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-white text-center p-3">
+              <h5>Rolex</h5>
+              <p class="mb-2">Experience the true definition of luxury.</p>
+              <a href="#" class="btn btn-warning">View Details</a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="product-card position-relative overflow-hidden rounded shadow">
+            <img src="images/tshirt.jpg" class="w-100 h-100 object-fit-cover" alt="Product 4">
+            <div class="product-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-white text-center p-3">
+              <h5>T Shirt</h5>
+              <p class="mb-2">A timeless design for everyday wear.</p>
+              <a href="#" class="btn btn-warning">View Details</a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="product-card position-relative overflow-hidden rounded shadow">
+            <img src="images/camera.jpg" class="w-100 h-100 object-fit-cover" alt="Product 5">
+            <div class="product-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-white text-center p-3">
+              <h5>Camera</h5>
+              <p class="mb-2">Sharp style with a bold presence.</p>
+              <a href="#" class="btn btn-warning">View Details</a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="product-card position-relative overflow-hidden rounded shadow">
+            <img src="images/5.jpg" class="w-100 h-100 object-fit-cover" alt="Product 6">
+            <div class="product-overlay position-absolute top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center text-white text-center p-3">
+              <h5>Minimal Silver</h5>
+              <p class="mb-2">Clean and elegant silver-tone watch.</p>
+              <a href="#" class="btn btn-warning">View Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- contact  -->
+   <!-- Contact Us Section Start -->
+<section class="contact-section py-5 bg-white" id="contact">
+    <div class="container">
+      <h2 class="text-center fw-bold mb-5">Contact Us</h2>
+      <div class="row">
+        <!-- Contact Form -->
+        <div class="col-lg-6 mb-4">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label fw-semibold">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label fw-semibold">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="your@email.com" required>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label fw-semibold">Message</label>
+              <textarea class="form-control" id="message" rows="5" placeholder="Your message..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+  
+        <!-- Google Map -->
+        <div class="col-lg-6">
+          <div class="ratio ratio-4x3">
+           
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.50584010665!2d67.12187657393314!3d24.81236924718292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33b0e84cfb12f%3A0xb424278e96d6ea2c!2sThe%20Hunar%20Foundation%20-%20Korangi!5e0!3m2!1sen!2s!4v1746515142500!5m2!1sen!2s" 
+              width="100%" 
+              height="100%" 
+              style="border:0;" 
+              allowfullscreen="" 
+              loading="lazy">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact Us Section End -->
+  
+  <!-- footer  -->
+  <footer class="bg-dark text-light pt-5 pb-4 mt-5">
+    <div class="container text-center text-md-left">
+      <div class="row text-center text-md-left">
+        
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning">E-Commerce</h5>
+          <p>Your one-stop shop for watches, fashion, and electronics. Quality you can trust.</p>
+        </div>
+  
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Products</h5>
+          <p><a href="#" class="text-light text-decoration-none">Watches</a></p>
+          <p><a href="#" class="text-light text-decoration-none">Clothing</a></p>
+          <p><a href="#" class="text-light text-decoration-none">Electronics</a></p>
+          <p><a href="#" class="text-light text-decoration-none">Footwear</a></p>
+        </div>
+  
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Useful Links</h5>
+          <p><a href="#" class="text-light text-decoration-none">Your Account</a></p>
+          <p><a href="#" class="text-light text-decoration-none">Become a Seller</a></p>
+          <p><a href="#" class="text-light text-decoration-none">Shipping Rates</a></p>
+          <p><a href="#" class="text-light text-decoration-none">Help</a></p>
+        </div>
+  
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contact</h5>
+          <p><i class="fas fa-home me-3"></i> Karachi, Pakistan</p>
+          <p><i class="fas fa-envelope me-3"></i>arsalanshah563738@gmail.com</p>
+          <p><i class="fas fa-phone me-3"></i> +92 370 0102419</p>
+          <p><i class="fas fa-print me-3"></i> +92 370 010241</p>
+        </div>
+  
+      </div>
+  
+      <hr class="mb-4">
+  
+      <div class="row align-items-center">
+        <div class="col-md-7 col-lg-8">
+          <p>© 2025 Copyright: 
+            <a href="#" class="text-warning text-decoration-none"><strong> Arsalan Shah</strong></a>
+          </p>
+        </div>
+        <div class="col-md-5 col-lg-4">
+          <div class="text-center text-md-right">
+            <a href="#" class="text-light me-4"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-light me-4"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-light me-4"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="text-light me-4"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </footer>
+  
     <!-- bootstrap javascript  -->
      <script src="javascript/js/bootstrap.bundle.min.js"></script>
     <!-- bootstrap  -->
